@@ -72,10 +72,11 @@
             // 
             this.btndangnhap.Location = new System.Drawing.Point(347, 225);
             this.btndangnhap.Name = "btndangnhap";
-            this.btndangnhap.Size = new System.Drawing.Size(119, 23);
+            this.btndangnhap.Size = new System.Drawing.Size(119, 30);
             this.btndangnhap.TabIndex = 8;
             this.btndangnhap.Text = "Đăng Nhập";
             this.btndangnhap.UseVisualStyleBackColor = true;
+            this.btndangnhap.Click += new System.EventHandler(this.btndangnhap_Click);
             // 
             // Form1
             // 
