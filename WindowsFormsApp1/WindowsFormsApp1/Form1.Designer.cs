@@ -32,7 +32,7 @@
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
-            this.btnlogin = new System.Windows.Forms.Button();
+            this.btndangnhap = new System.Windows.Forms.Button();
             UserName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -68,21 +68,21 @@
             this.txtPassword.Size = new System.Drawing.Size(270, 22);
             this.txtPassword.TabIndex = 6;
             // 
-            // btnlogin
+            // btndangnhap
             // 
-            this.btnlogin.Location = new System.Drawing.Point(348, 268);
-            this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(75, 23);
-            this.btnlogin.TabIndex = 8;
-            this.btnlogin.Text = "button1";
-            this.btnlogin.UseVisualStyleBackColor = true;
+            this.btndangnhap.Location = new System.Drawing.Point(348, 268);
+            this.btndangnhap.Name = "btndangnhap";
+            this.btndangnhap.Size = new System.Drawing.Size(75, 23);
+            this.btndangnhap.TabIndex = 8;
+            this.btndangnhap.Text = "Đăng Nhập";
+            this.btndangnhap.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnlogin);
+            this.Controls.Add(this.btndangnhap);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUserName);
@@ -99,7 +99,7 @@
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label Password;
         private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.Button btnlogin;
+        private System.Windows.Forms.Button btndangnhap;
     }
 }
 
