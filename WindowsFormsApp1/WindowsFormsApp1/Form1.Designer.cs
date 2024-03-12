@@ -41,9 +41,9 @@
             UserName.AutoSize = true;
             UserName.Location = new System.Drawing.Point(176, 101);
             UserName.Name = "UserName";
-            UserName.Size = new System.Drawing.Size(76, 16);
+            UserName.Size = new System.Drawing.Size(98, 16);
             UserName.TabIndex = 0;
-            UserName.Text = "User Name";
+            UserName.Text = "Tên đăng nhập";
             // 
             // txtUserName
             // 
@@ -57,9 +57,9 @@
             this.Password.AutoSize = true;
             this.Password.Location = new System.Drawing.Point(176, 176);
             this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(67, 16);
+            this.Password.Size = new System.Drawing.Size(61, 16);
             this.Password.TabIndex = 7;
-            this.Password.Text = "Password";
+            this.Password.Text = "Mật khẩu";
             // 
             // txtPassword
             // 
